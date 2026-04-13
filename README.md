@@ -43,35 +43,6 @@ Given building parameters such as:
 * API deployment using Flask
 * Visualization using Plotly
 * End-to-end system design
-
----
-
-## 🗂️ Project Structure
-
-```
-energy_predictor/
-│
-├── data/
-│   └── ENB2012_data.xlsx
-│
-├── src/
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── anomaly.py
-│   └── visualize.py
-│
-├── models/
-│   ├── best_heating_load.pkl
-│   └── best_cooling_load.pkl
-│
-├── notebooks/
-│
-├── app.py
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## ⚙️ Installation & Setup
