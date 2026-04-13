@@ -126,35 +126,6 @@ http://127.0.0.1:5000/health
 POST /predict
 ```
 
-Example request:
-
-```bash
-curl -X POST http://localhost:5000/predict \
--H "Content-Type: application/json" \
--d '{
-  "compactness": 0.98,
-  "surface_area": 514.5,
-  "wall_area": 294.0,
-  "roof_area": 110.25,
-  "height": 7.0,
-  "orientation": 2,
-  "glazing_area": 0.0,
-  "glazing_distribution": 0
-}'
-```
-
----
-
-### Example Response
-
-```json
-{
-  "heating_load": 15.55,
-  "cooling_load": 21.33,
-  "unit": "kWh/m²"
-}
-```
-
 ---
 
 ## 📊 Models Used
